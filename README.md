@@ -43,19 +43,15 @@ A comprehensive full-stack application for managing a sweet shop with inventory 
 - **Zod** for validation
 - **bcryptjs** for password hashing
 
-### DevOps
-- **Docker** & **Docker Compose** for containerization
-- **Hot reload** for development
-- **Production-ready** builds
-
+=
 ## 📦 Installation & Setup
 
 ### Prerequisites
 - Node.js 18+ and npm
-- Docker and Docker Compose
+=
 - Git
 
-### Quick Start with Docker (Recommended)
+### Quick Start
 
 1. **Clone the repository**
    ```bash
@@ -63,12 +59,9 @@ A comprehensive full-stack application for managing a sweet shop with inventory 
    cd sweet-shop-management
    ```
 
-2. **Start all services**
-   ```bash
-   docker-compose up -d
-   ```
 
-3. **Access the application**
+
+2. **Access the application**
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:5000/api
    - Database: localhost:5432
